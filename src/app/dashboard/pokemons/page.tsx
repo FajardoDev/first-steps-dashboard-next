@@ -4,6 +4,11 @@ import {
 	SimplePokemon,
 } from "@/app/pokemons";
 
+export const metadata = {
+	title: "listado de los pokemons ",
+	description: "este es el listado de todos los pokemons ",
+};
+
 const getPokemons = async (
 	limit = 20,
 	offset = 0,
